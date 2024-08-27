@@ -1,0 +1,29 @@
+@import 'normalize.css/normalize.css';
+@import '@blueprintjs/core/lib/css/blueprint.css';
+@import '@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this CSS to your stylesheet */
+/* Add this CSS to your stylesheet */
+.custom-editable-text {
+    color: #000000; /* Change to your desired text color */
+  }
+  
+  .custom-editable-text.bp3-editable-text {
+    color: #000000 !important; /* Ensure the text color is applied */
+  }
+  
+  .custom-editable-text.bp3-editable-text-content {
+    color: #000000 !important; /* Ensure the text color is applied */
+  }
+ 
+  /* Add this CSS to your stylesheet */
+.custom-editable-text {
+    color: #000000; /* Change to your desired text color */
+    background-color: #ffffff; /* Change to your desired background color */
+  }
+  
+  
